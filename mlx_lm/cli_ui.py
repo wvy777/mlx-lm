@@ -1,6 +1,7 @@
 # Copyright © 2024 Apple Inc.
 
 import re
+import readline  # noqa: F401 (enables line editing)
 import shutil
 import sys
 from contextlib import contextmanager
